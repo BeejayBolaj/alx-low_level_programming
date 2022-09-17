@@ -21,17 +21,11 @@ int main(void)
 
 																		if (c != 89)
 																		{
-																			putchar(f_d);
-																			putchar(l_d);
-
-																			if (c != 89)
-																			{
-																				putchar(',');
-																				putchar('');
-																			}
-																		}
-																		c++;
-		}
+																																		putchar(',');
+																																		putchar(' ');
+																																	}
+																	}															c++;
+																}
 putchar('\n');
 return (0);
 }
