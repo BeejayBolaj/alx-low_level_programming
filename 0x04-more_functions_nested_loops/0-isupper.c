@@ -1,14 +1,14 @@
 #include "main.h"
 
 /**
- * _isupper - checks if para meter is an uppercase or not
- * @c: character to be tested
- * Return: 1 whether it is, 0 otherwise
+ * _isupper - function that checks for uppercase characters
+ * @c: int type number
+ * Return: 1 if uppercase, else 0
  */
 int _isupper(int c)
 {
-       	if ((c >= 'A') && (c <= 'Z'))
-	{
-		rreturn (1);
-	}return (0)
+	if (c > 64 && c < 91)				
+		return (1);
+	
+	return (0);
 }
