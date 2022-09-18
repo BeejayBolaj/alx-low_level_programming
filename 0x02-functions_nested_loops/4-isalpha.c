@@ -39,9 +39,9 @@ int main(void)
 		a_tail = b_tail;
 		b_head = sum_head;
 		b_tail = sum_tail;
-																}
+	}
 
-	printf("\n");
+		printf("\n");
 
-	return (0)
+		return (0);
 }
