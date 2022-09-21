@@ -7,7 +7,7 @@
  */
 
 char *cap_string(char *str)
-
+{	
 	int i, c;
 	int trigger;
 	char nots[] = ",;.!?(){}\n\t\" ";
